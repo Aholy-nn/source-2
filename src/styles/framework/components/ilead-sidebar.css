@@ -1,0 +1,181 @@
+.page-sidebar {
+    background: #191a23;
+    top: 0px;
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+    /* width: 220px; */
+    padding-top: 80px;
+    z-index: 1002;
+}
+.page-sidebar_logo{
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    color: #eee;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #09090c;
+}
+/* 收缩按钮 */
+.sidebar-toggler{
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    margin: 0px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 70px;
+    line-height: 66px;
+}
+.sidebar-toggler i {
+    color: #666;
+}
+.sidebar-toggler:hover i{
+    color:#2163f0;
+}
+
+
+/* 滚动条 */
+.__vuescroll .__rail-is-vertical,
+.__vuescroll .__rail-is-horizontal {
+    z-index: 900 !important;
+}
+/* 一级item */
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu-title,
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu-title:hover{
+    padding: 14px 15px;
+    background: #191a23;
+    color: #eee !important;
+}
+/* 二级item */
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu .zvu-menu-item-active,
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu .zvu-menu-item-active:hover,
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu .zvu-menu-item:hover{
+    background: #2163f0!important;
+    color: #fff;
+}
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu .zvu-menu-item{
+    background: #101117; 
+    padding: 15px 0px;
+    color: #fff;
+}
+/* .zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu .zvu-menu-item > a{
+    padding: 15px 0px;
+    display: block;
+    color: #eee;
+} */
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-opened > .zvu-menu-submenu-title {
+    border-left: 3px solid #2163f0;
+    background: #191a23;
+    padding-left: 12px;
+    padding: 15px 15px;
+}
+/* 二级head */
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-opened .zvu-menu-submenu-has-parent-submenu .zvu-menu-submenu-title {
+    background: #101117;   
+}
+.zvu-menu-dark.zvu-menu-vertical .zvu-menu-opened .zvu-menu-submenu-has-parent-submenu  .zvu-menu-item{
+    background: #08090c;
+}
+/*三级*/
+.zvu-menu-item.active{
+    background: #2163f0!important;
+}
+/* 图标 */
+.zvu-menu-submenu-title span>i, .zvu-menu-item a>i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+.zvu-menu-submenu-title span>i, .zvu-menu-submenu-title>i{
+    font-size: 16px;
+    margin-top: -2px;
+}
+/* 缩小窗口 */
+.page-sidebar-closed{
+    top: 70px;
+    padding-top: 10px;
+}
+.page-sidebar-closed,
+.page-sidebar-closed  .zvu-menu-dark.zvu-menu-vertical {
+    width: 54px !important;
+}
+.page-sidebar-closed .heading,
+.page-sidebar-closed .page-sidebar_logo,
+.page-sidebar-closed .sidebar_demo-title,
+.page-sidebar-closed .zvu-menu-submenu>.zvu-menu,
+.page-sidebar-closed .zvu-menu-dark.zvu-menu-vertical > li > .zvu-menu-submenu-title .title_text,
+.page-sidebar-closed .zvu-menu-dark.zvu-menu-vertical > li > .zvu-menu-submenu-title .zvu-menu-submenu-title-icon {
+    display: none;
+}
+.frame-wrapper.toggler-menu .frame-header, .frame-wrapper.toggler-menu .sidebar-toggler{
+    left:0px;
+}
+.page-sidebar-closed .zvu-menu-submenu-title > i {
+    font-size: 18px;
+    margin: 0px;
+}
+/* 一级 */
+.page-sidebar-closed .zvu-menu-dark.zvu-menu-vertical > li > .zvu-menu-submenu-title{
+    padding: 19px 13px;
+    padding-left: 12px;
+    text-align: center;
+    transition: unset;
+}
+/* 滑过 */
+.page-sidebar-closed:hover,
+.page-sidebar-closed:hover .zvu-menu-dark.zvu-menu-vertical{
+    width: 200px !important;
+}
+.page-sidebar-closed:hover .heading,
+.page-sidebar-closed:hover .zvu-menu-submenu>.zvu-menu,
+.page-sidebar-closed:hover .sidebar_demo-title{
+    display: block;
+}
+.page-sidebar-closed:hover .zvu-menu-dark.zvu-menu-vertical > li > .zvu-menu-submenu-title .title_text,
+.page-sidebar-closed:hover .zvu-menu-dark.zvu-menu-vertical > li > .zvu-menu-submenu-title .zvu-menu-submenu-title-icon{
+    display: inline;
+}
+.page-sidebar-closed:hover .zvu-menu-dark.zvu-menu-vertical > li > .zvu-menu-submenu-title{
+    padding: 14px 15px;
+    padding-left: 20px !important;
+    text-align: left;
+}
+.page-sidebar-closed:hover .zvu-menu-submenu-title > i {
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: -2px;
+}
+/* demo */
+.sidebar_demo-title{
+    color: #8b8b92;
+    padding: 12px 15px;
+    font-size: 18px;
+    margin-top: 10px;
+} 
+/* 添加ellipsis省略样式 */
+.page-sidebar.ellipsis .zvu-menu-submenu-title,
+.page-sidebar.ellipsis .zvu-menu-submenu .zvu-menu-item{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.page-sidebar.ellipsis .zvu-menu-dark.zvu-menu-vertical .zvu-menu-submenu-title{
+    padding-right: 30px;
+}
+.page-sidebar.ellipsis .zvu-menu-vertical .zvu-menu-submenu .zvu-menu-item{
+    padding: 15px;
+}
+.page-sidebar.ellipsis .zvu-menu-vertical .zvu-menu-submenu-title-icon {
+    top: 21px;
+    right: 10px;
+    position: absolute;
+}
+/* ellipsis状态下收起时 */
+.frame-wrapper.toggler-menu .page-sidebar.ellipsis .zvu-menu-submenu-title{
+    text-overflow: unset;
+}

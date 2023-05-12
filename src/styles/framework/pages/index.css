@@ -1,0 +1,100 @@
+/* head */
+.frame-header{
+    height: 70px;
+    min-height: 70px;
+    margin: 0;
+    -webkit-box-shadow: 0 1px 4px rgba(0,21,41,.08);
+    box-shadow: 0 1px 4px rgba(0,21,41,.08);
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    /* left: 220px; */
+    right: 0px;
+    z-index: 1001;
+}
+.frame-header_left{
+    height: 70px;
+    line-height: 69px;
+    padding-left: 60px;
+    float: left;
+}
+.frame-header_left a{
+    padding: 5px 10px;
+    color: #666;
+}
+.frame-header_left a > i{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.frame-header_left a:hover{
+    color: #2163f0;
+}
+.frame-header_left .zvu-breadcrumb{
+    display: inline-block;
+    margin-left: 15px;
+}
+/* login */
+.frame-header_login{
+    float: right;
+    margin-top: 12px;
+}
+.frame-header_login .username{
+    float: right;
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.frame-header_login .img-circle{
+    display: inline-block;
+    border-radius: 100%;
+}
+.frame-header_login .company{
+    font-weight: normal;
+    color: #666;
+    margin-top: 6px;
+}
+.frame-header_login .zvu-icon {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.zvu-dropdown-menu {
+    min-width: 100px;
+}
+.frame-header_login .zvu-dropdown-menu .zvu-dropdown-item{
+    padding: 0px;
+}
+.frame-header_login .zvu-dropdown-menu .zvu-dropdown-item > a{
+    font-size: 13px !important;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+}
+/* 内容 */
+.frame-wrapper {
+}
+.page-content-wrapper{
+    position: relative;
+    padding: 0px 15px;
+    clear: both;
+}
+
+.frame-container{
+    position: relative;
+    /* padding-left: 220px; */
+    clear: both;
+}
+.frame-main{
+    padding: 0px 15px;
+    padding-top: 120px;
+}
+.frame-main.no-tab{
+    padding-top: 85px;
+}
+.frame-main.no-tab .ui-page-loading{
+    top: 70px;
+}

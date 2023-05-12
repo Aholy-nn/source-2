@@ -1,0 +1,108 @@
+{
+  "code": "01",
+  "msg": "success",
+  "data": [
+    {
+      "functionId": "1000",
+      "functionName": "系统管理",
+      "iconClass": "fa fa-pencil",
+      "functionURL": "",
+      "functionPath":"/sysManage",
+      "functionDesc": "系统管理UI4",
+      "supFuncId": "****",
+      "subMenu": [
+        {
+          "functionId": "1002",
+          "functionName": "用户管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/user/userManage/userManage",
+          "functionPath": "/user/userManage",
+          "functionDesc": "用户管理",
+          "supFuncId": "1000",
+          "subMenu": ""
+        },
+        {
+          "functionId": "1003",
+          "functionName": "角色管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/roles/rolesManage/rolesManage",
+          "functionPath": "/roles/rolesManage",
+          "functionDesc": "角色管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1001",
+          "functionName": "组织管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/organization/orgManage/orgManage",
+          "functionPath": "/organization/orgManage",
+          "functionDesc": "组织管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1004",
+          "functionName": "功能管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/function/functionManage/functionManage",
+          "functionPath": "/function/functionManage",
+          "functionDesc": "功能管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1006",
+          "functionName": "用户组管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/usergroup/userGroupManage/userGroupManage",
+          "functionPath": "/usergroup/userGroupManage",
+          "functionDesc": "用户组管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1005",
+          "functionName": "外部资源管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/restype/resManage/resManage",
+          "functionPath": "/restype/resManage",
+          "functionDesc": "外部资源管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1010",
+          "functionName": "属性权限管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/datacategory/dataCategory/dataCategory",
+          "functionPath": "/datacategory/dataCategory",
+          "functionDesc": "属性权限管理",
+          "supFuncId": "1010"
+        },
+        {
+          "functionId": "1007",
+          "functionName": "系统应用管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/sysappinfo/sysAppInfoManage/sysAppInfoManage",
+          "functionPath": "/sysappinfo/sysAppInfoManage",
+          "functionDesc": "系统应用管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1008",
+          "functionName": "服务应用管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/authappinfo/authAppInfoManage/authAppInfoManage",
+          "functionPath": "/authappinfo/authAppInfoManage",
+          "functionDesc": "服务应用管理",
+          "supFuncId": "1000"
+        },
+        {
+          "functionId": "1009",
+          "functionName": "服务资源管理",
+          "iconClass": "fa fa-pencil",
+          "functionURL": "views/authui5/authappresinfo/authAppResInfoManage/authAppResInfoManage",
+          "functionPath": "/authappresinfo/authAppResInfoManage",
+          "functionDesc": "服务资源管理",
+          "supFuncId": "1000"
+        }
+      ]
+    }
+  ]
+}

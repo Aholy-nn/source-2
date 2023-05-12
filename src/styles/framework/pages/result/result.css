@@ -1,0 +1,46 @@
+.result{
+    text-align: center;
+    padding: 0px 20px;
+}
+.result .zvu-icon-checkmark-circled{
+    color: #19be6b;
+    font-size: 80px;
+}
+.result .zvu-icon-close-circled{
+    color: #ed4014;
+    font-size: 80px;
+}
+.result_title{
+    margin-bottom: 16px;
+    color: #17233d;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+.result_desc{
+    margin-bottom: 24px;
+    color: #808695;
+    font-size: 14px;
+    line-height: 22px;
+}
+.result_extra{
+    padding: 24px 40px;
+    text-align: left;
+    background: #f8f8f9;
+    border-radius: 4px;
+    color:#666;
+}
+.result_extra_wran{
+    margin-top: 20px;
+}
+.result_extra_wran .zvu-icon-ios-close-outline{
+    color: rgb(237, 64, 20);
+    margin-right: 5px;
+}
+.result_extra_wran .zvu-icon-ios-arrow-right{
+    margin-left: 5px;
+}
+.result_extra_wran a{
+    color:#2d8cf0;
+}

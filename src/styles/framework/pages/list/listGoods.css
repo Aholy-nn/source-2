@@ -1,0 +1,20 @@
+.list-goods img{
+    width: 60%;
+}
+.list-goods{
+    text-align: center;
+}
+.list-goods_title{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+.list-goods_desc{
+    font-size: 14px;
+    color: #808695;
+}
+.list-goods_price{
+    font-size: 14px;
+    color: #ff6700;
+    margin: 8px 0;
+}

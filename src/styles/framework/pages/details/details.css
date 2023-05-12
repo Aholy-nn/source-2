@@ -1,0 +1,13 @@
+.description-term,.description-detail{
+  display: table-cell;
+  padding-bottom: 16px;
+  line-height: 20px;
+}
+.description-term {
+  color: #17233d;
+  white-space: nowrap;
+}
+.description-detail{
+  width: 100%;
+  color: #515a6e;
+}

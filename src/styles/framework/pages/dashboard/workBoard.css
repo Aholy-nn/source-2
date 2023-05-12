@@ -1,0 +1,75 @@
+.wrokboard-header_tip{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #666;
+}
+.wrokboard-header_tip h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.wrokboard-header_extra{
+    text-align: right;
+    color: #999;
+    line-height: 32px;
+}
+.wrokboard-header_extra p{
+    color: #666;
+    font-size: 20px;
+}
+.card-extra{
+    color: #2d8cf0;
+    margin-top: 5px;
+}
+
+/* 我的项目 */
+.wrokboard-apps_item{
+    height: 100px;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    border: 4px solid #fff;
+    cursor: pointer;
+    background-image: url('~assetspath/framework/dashboard/middle.png');
+}
+.wrokboard-apps_item:hover{
+    box-shadow: 0 1px 4px #ddd;
+    border: 0px;
+}
+.wrokboard-apps_item .name{
+    font-weight: bold;
+}
+/* 快捷操作 */
+.wrokboard-shortcut{
+    text-align: center;
+}
+.wrokboard-shortcut .zvu-icon{
+    font-size: 24px;
+}
+.wrokboard-shortcut p{
+    margin: 5px 0px 15px;
+}
+.wrokboard-shortcut a{
+    display: block;
+}
+/* 列表 */
+.wrokboard-lists_item{
+    padding: 5px 0px;
+    position: relative;
+}
+.wrokboard-lists_item .content{
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #666;
+}
+.wrokboard-lists_item .extra{
+    position: absolute;
+    right: 0px;
+    top: 16px;
+}
+.wrokboard-lists_item a{
+    color:#2d8cf0;
+}

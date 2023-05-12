@@ -1,0 +1,64 @@
+/* note-board */
+.note-board{
+    color: #666;
+}
+.zvu-card-head{
+    font-size: 16px;
+    color: #333;
+}
+.zvu-card-extra{
+    top: 9px;
+}
+.note-board_numeral{
+    font-size: 28px;
+    height: 46px;
+    line-height: 46px;
+}
+/* 访问排行 */
+.ranking-list li {
+    line-height: 34px;
+    color: #666;
+}
+.ranking-list .num{
+    float: right;
+    color:#2163f0;
+}
+.ranking-list_avatar {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #f5f5f5; 
+}
+.ranking-list_avatar.blue{
+    background: #e6f7ff;
+    color:#1890ff;
+}
+/* 热门搜索 */
+.hot-search_num{
+    font-size: 28px;
+}
+.hot-search{
+    color: #666;
+}
+/* 满意度 */
+.progress-title{
+    font-weight: bold;
+}
+.progress1 .zvu-progress-bg{
+    background: #2fc25b;
+}
+.progress2 .zvu-progress-bg{
+    background: #1890ff;
+}
+.progress3 .zvu-progress-bg{
+    background: #ffc53d;
+}
+.progress4 .zvu-progress-bg{
+    background: #f04864;
+}
+.progress5 .zvu-progress-bg{
+    background: #1890ff;
+}

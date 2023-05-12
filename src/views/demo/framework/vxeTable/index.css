@@ -1,0 +1,30 @@
+.anchor-box{
+    position:fixed;
+    background:rgba(255,255,255,0.7);
+    right:16px;
+    z-index:99;
+    padding:10px;
+    font-size:12px;
+}
+.vxe-head{
+    padding: 10px;
+    background: #f8f8f9;
+    border-left: 3px solid #409eff;
+    margin: 10px 0px;
+}
+.mytable-style.vxe-table .vxe-body--row.row-green {
+    background-color: #187;
+    color: #fff;
+}
+.mytable-style.vxe-table .vxe-header--column.col-blue {
+    background-color: #2db7f5;
+    color: #fff;
+}
+.mytable-style.vxe-table .vxe-body--column.col-red {
+    background-color: red;
+    color: #fff;
+}
+.mytable-style.vxe-table .vxe-body--column.col-orange {
+    background-color: #f60;
+    color: #fff;
+}

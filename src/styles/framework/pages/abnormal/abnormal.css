@@ -1,0 +1,73 @@
+body{
+    background: #fff;
+}
+.errorpage{
+     background: #fff;
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     padding-left: 220px;
+     padding-top: 120px;
+ }
+ .errorpage_container {
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    max-width: 1200px;
+    height: 100%;
+}
+ .errorpage_subject{
+     position: absolute;
+     left: 0px;
+     top: 50%;
+     transform: translate(0,-50%);
+ }
+ .errorpage_text{
+     text-align: left;
+     font-size: 34px;
+     line-height: 70px;
+     position: absolute;
+     position: absolute;
+     padding-right: 100px;
+     right: 0px;
+     top: 50%;
+     transform: translate(0,-50%);
+ }
+ .errorpage_text p{
+     margin:0px;
+ }
+ /*404*/
+ .subject-404{
+     width: 550px;
+ }
+ .text-404{
+     color: #429bac;
+     text-shadow: 0px 1px 1px #357885;
+ }
+ /*500*/
+ .subject-500{
+     width: 550px;
+ }
+ .text-500{
+     color: #384f77;
+     /* text-shadow: 0px 1px 1px #2c3d5c; */
+ }
+ /*unknown*/
+ .subject-unknown{
+     width: 550px;
+ }
+ .text-unknown{
+     color: #339583;
+     text-shadow: 0px 1px 1px #5c7ab0;
+ }
+ /*图片自适应*/
+ .img-responsive{
+     width:100%;
+ }
+ 
+/* empty */
+.not-dev_text {
+    font-size: 22px;
+} 

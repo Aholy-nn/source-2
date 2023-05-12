@@ -1,0 +1,133 @@
+/* head */
+.search-list_head_content{
+    margin: 0px auto;
+    max-width: 500px;
+    padding: 20px 0px 30px;
+}
+.search-list_head{
+    padding-bottom: 0px;
+}
+/* 菜单 */
+.search-list_head .zvu-menu-horizontal {
+    height: 40px;
+    line-height: 40px;
+}
+.search-list_head .zvu-menu-horizontal .zvu-menu-item{
+    padding:0px;
+}
+.search-list_head .zvu-menu-item a{
+    padding:0px 20px;
+    display: block;
+}
+.search-list_nav{
+    line-height: 40px;
+ 
+    clear: both;
+    display: table;
+}
+.search-list_nav > li{
+    float: left;
+}
+.search-list_nav > li a{
+    display: block;
+    padding: 0px 24px;
+    cursor: pointer;
+}
+.search-list_nav > li.active a{
+    color: #2163f0;
+    border-bottom: 2px solid #2163f0;
+}
+/* 类别 */
+.tag-select{
+    padding-right: 50px;
+    position: relative;
+    max-height: 32px;
+    overflow: hidden;
+}
+.tag-select-expanded{
+    max-height: 200px;
+}
+.tag-select > li{
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 26px;
+    font-size: 12px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tag-select > li:hover{
+    background: #f3f7ff;
+}
+.tag-select > li.active{
+    background: #2163f0;
+    color: #fff;
+}
+/* .tag-select > li span{
+    padding: 3px 8px;
+    cursor: pointer;
+} */
+
+.tag-select_expand-btn{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #2d8cf0;
+}
+/* 文章页 */
+
+.infolist_item{
+    position: relative;
+    color: #666;
+    padding-right: 320px;
+    line-height: 22px;
+}
+.infolist_item_content{
+    max-width: 700px;
+    line-height: 22px;
+}
+.infolist_item_title{
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.infolist_item_action{
+    clear: both;
+    display: table;
+}
+.infolist_item_action > li{
+    float: left;
+    padding: 0px 20px;
+    border-right: 1px solid #ddd;
+    color: #999;
+    line-height: 16px;
+}
+.infolist_item_action > li:last-child{
+    border: none;
+}
+.infolist_item_action > li i{
+    font-size: 16px;
+}
+.infolist_item_extra{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    max-width: 280px;
+    overflow: hidden;
+}
+/* 项目 */
+.project-list{
+    line-height: 22px;
+    color: #666;
+}
+.project-list .title{
+    color: #333;
+}
+.project-list .partners{
+    float: right;
+}
+/* 应用 */
+.apply-card{
+    color: #666;
+    line-height: 22px;
+}
